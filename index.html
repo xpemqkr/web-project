@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>サッカーFOREVER</title>
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="src/img/favicon.png"
+    />
+  </head>
+  <body>
+    <main id="app">
+      <section class="section-intro">
+        <header id="header">
+          <h1 class="txt-invisible">Portfolio</h1>
+          <nav>
+            <ul class="nav-list">
+              <li><a href="#about" class="list-link">Information</a></li>
+              <li><a href="#contact" class="list-link">Contact</a></li>
+              <li>
+                <a
+                  href="https://github.com/xpemqkr/website-project"
+                  class="list-link btn-code"
+                  >code</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <div class="bar-bg">
+            <span class="bar-ing"></span>
+          </div>
+        </header>
+
+        <div class="cont-intro">
+          <a name="info"></a>
+          <img src="src/img/img-desk.jpg"/>
+          <div>
+            <p class="txt-title"></p>
+            <a href="#about" class="btn-more">About Me & Us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about">
+        <a name="about"></a>
+        <h2>About Me & Us</h2>
+        <div class="cont-about">
+          <div class="slide-container">
+            <div class="slide-album">
+              <div class="slide-images">
+                <img src="src/img/img-me-1.jpg"/>
+                <img src="src/img/img-me-2.jpg"/>
+                <img src="src/img/img-me-3.jpg"/>
+                <img src="src/img/img-me-4.jpg"/>
+              </div>
+              <button class="btn-next">▶</button>
+              <button class="btn-prev">◀</button>
+            </div>
+          </div>
+          <div class="info-about">
+            <dl class="txt-about">
+              <div>
+                <dt>名前</dt>
+                <dd>PARK JUNHYUK</dd>
+              </div>
+              <div>
+                <dt>生年月日</dt>
+                <dd>1996年4月20日</dd>
+              </div>
+              <div>
+                <dt>学校・学部</dt>
+                <dd>立教大学・法学部</dd>
+              </div>
+              <div>
+                <dt>フットサルチーム</dt>
+                <dd>FCシュウッ</dd>
+              </div>
+              <div>
+                <br>
+                  <dd>以下から私のチームをご紹介させていただきます。</dd>
+                </br>
+              </div>
+            </dl>
+            <div class="btn-about">
+              <button class="btn-open" type="button">
+                <img src="src/img/img-desk.jpg"/>FCシュウッ
+              </button>
+              <button class="btn-open" type="button">
+                <img src="src/img/img-desk.jpg"/>加入のご案内
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="footer">
+        <a name="contact"></a>
+        <div class="box-footer">
+          <h2>Contact.</h2>
+          <ul class="link-sns">
+            <li>
+              <a href="https://github.com/xpemqkr/website-project"
+                ><img
+                  class="img-github"
+                  src="src/img/icon-github.png"
+                  ="github address"
+                />github</a
+              >
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <div class="modal-background">
+        <div class="modal">
+          <h3>チームの紹介</h3>
+          <h4>FCシュウッとは？</h4>
+          <img src="src/img/img-stadium.jpg"/>
+          <p align="left">
+            2022年開催した横浜のフットサルチームです⚽</br>
+            全員：25名</br>
+            メンバー：日本の方、韓国の方、中国の方で構成されています！ㅡ</br>
+            位置：横浜ジョイナスのコードに活動しています。</br>
+            時間代：主に、土曜、日曜16時から21時までプレイしています。</br>
+          </p>
+          <button type="button" class="btn-close">Close</button>
+        </div>
+      </div>
+      <div class="modal-background">
+        <div class="modal">
+          <h3>加入のご案内</h3>
+          <h4>一緒にフットサルしませんか？</h4>
+          <img src="src/img/img-desk.jpg"/>
+          <p>
+            現在、メンバーを募集中でございます！</br>
+            初心者、未経験全部かまいませんので、</br>
+            ぜひ、お問い合わせお願いいたします。
+          </p>
+          <button type="button" class="btn-close">Close</button>
+        </div>
+      </div>
+      <button onclick="moveToTop()" class="btn-moveTop"></button>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
